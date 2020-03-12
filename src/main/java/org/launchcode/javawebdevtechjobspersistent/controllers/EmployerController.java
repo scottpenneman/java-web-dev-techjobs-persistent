@@ -33,7 +33,6 @@ public class EmployerController {
         }
 
         employerRepository.save(newEmployer);
-
         return "redirect:add";
     }
 
